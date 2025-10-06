@@ -11,7 +11,7 @@
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/apps/counter",
-        "baseHref": "/counter-app/",
+        "baseHref": "/",
         "browser": "apps/counter/src/main.ts",
         "polyfills": ["zone.js"],
         "tsConfig": "apps/counter/tsconfig.app.json",
