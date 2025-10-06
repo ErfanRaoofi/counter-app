@@ -9,7 +9,7 @@
           "includeFiles": [
             "dist/apps/counter/browser/**"
           ],
-          "runtime": "nodejs18.x"
+          "runtime": "nodejs22.x"
         }
       }
     ],
