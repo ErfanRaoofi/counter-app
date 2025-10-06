@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "dist/apps/counter/server/server.mjs",
+        "use": "@vercel/node",
+        "config": {
+          "includeFiles": [
+            "dist/apps/counter/browser/**"
+          ]
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "dist/apps/counter/server/server.mjs"
+      }
+    ]
+  }
+  

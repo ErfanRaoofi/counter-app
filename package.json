@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "build": "npx nx run counter:build --configuration=production",
-    "deploy-gh": "nx build counter --configuration=production && npx gh-pages -d dist/apps/counter"
+    "deploy-gh": "nx build counter --configuration=production && npx gh-pages -d dist/apps/counter",
+    "deploy-vercel": "nx build counter && vercel --prod"
   },
   "private": true,
   "dependencies": {
