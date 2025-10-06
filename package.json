@@ -6,7 +6,7 @@
     "build": "npx nx run counter:build --configuration=production",
     "deploy-gh": "nx build counter --configuration=production && npx gh-pages -d dist/apps/counter",
     "deploy-vercel": "nx build counter",
-    "serve:ssr": "node dist/apps/counter/server/server.mjs"
+    "serve:ssr": "node /counter/server/server.mjs"
   },
   "private": true,
   "dependencies": {
