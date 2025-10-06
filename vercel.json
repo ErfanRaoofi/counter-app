@@ -3,7 +3,7 @@
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "dist/apps/counter/server/server.mjs"
+        "dest": "/counter/server/server.mjs"
       }
     ]
   }
