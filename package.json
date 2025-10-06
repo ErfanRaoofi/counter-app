@@ -5,7 +5,7 @@
   "scripts": {
     "build": "npx nx run counter:build --configuration=production",
     "deploy-gh": "nx build counter --configuration=production && npx gh-pages -d dist/apps/counter",
-    "deploy-vercel": "nx build counter && vercel --prod"
+    "deploy-vercel": "nx build counter"
   },
   "private": true,
   "dependencies": {
