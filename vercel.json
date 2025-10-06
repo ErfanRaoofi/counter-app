@@ -1,18 +1,5 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/node",
-        "config": {
-          "zeroConfig": false,
-          "includeFiles": [
-            "dist/apps/counter/browser/**"
-          ],
-          "runtime": "nodejs22.x"
-        }
-      }
-    ],
     "routes": [
       {
         "src": "/(.*)",
