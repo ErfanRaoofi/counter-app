@@ -8,3 +8,6 @@ const serverConfig: ApplicationConfig = {
 };
 
 export const config = mergeApplicationConfig(appConfig, serverConfig);
+
+// docker build -t erfan74/counter:1.0.0 .
+// docker push erfan74/counter:1.0.0
